@@ -28,9 +28,9 @@ All deadlines are Sunday 23:59 PM CET.
 
 | Homework | Release Week | Deadline Week | Person in charge | Email |
 | ---- | ---- | ---- | ---- | ---- |
-| 1 | 4 | 7 | Judit Acs | judit@aut.bme.hu |
-| 2 | 8 | 11 | Gabor Borbely | gaebor@gmail.com |
-| 3 | 11 | 14 | David Nemeskey | nemeskeyd@gmail.com |
+| 1 | 3 | 6 | Judit Acs | judit@aut.bme.hu |
+| 2 | | | | |
+| 3 | | | | |
 
 ## Help
 
