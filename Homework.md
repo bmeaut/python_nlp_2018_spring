@@ -12,9 +12,30 @@ You may be required to orally present your solutions.
 
 ## Submission
 
-TBA
+Submissions are managed through Github Classroom. You will receive an invite link via
+Neptun.
 
-One homework assignment can be (re-)submitted by the end of the repeat period in accordance with the Code of Studies and Exams.
+1. Click on the invite link and login to GitHub. Create an account if necessary.
+2. Grant access to GitHub Classroom. It will only use your public information
+   and your homework repository's information.
+3. Find your name in the course roster and click on it. If you can't find your
+   name in the list, please email the instructor.
+
+Now Github Classroom creates your own private repository for this homework with
+the starter code (the homework notebook) in it. This may take a few minutes.
+
+### Final submission
+
+The last commit in this repository before the deadline will be your submission
+for this homework.
+
+Please be aware that we might delete these repositories after the end of the
+semester.
+
+### Late and repeated submission
+
+One homework assignment can be (re-)submitted by the end of the repeat period
+in accordance with the Code of Studies and Exams.
 
 ## Grading
 
