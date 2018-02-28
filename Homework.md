@@ -24,6 +24,10 @@ Neptun.
 Now Github Classroom creates your own private repository for this homework with
 the starter code (the homework notebook) in it. This may take a few minutes.
 
+If you're unfamilar with git, many great tutorial are available online such as
+the Git Book [here](https://git-scm.com/book/en/v2) (Chapter 1 and 2 should be
+more than enough for this course).
+
 ### Final submission
 
 The last commit in this repository before the deadline will be your submission
