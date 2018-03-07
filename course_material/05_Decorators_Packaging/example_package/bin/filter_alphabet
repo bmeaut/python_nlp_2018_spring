@@ -3,19 +3,31 @@
 from argparse import ArgumentParser
 from sys import stdin, stdout
 
+
+hungarian_alphabet = "aábcdeéfghiíjklmnoóöőprqstuúüűvwxyz"
+
+
 def parse_args():
     p = ArgumentParser("Filter script")
     p.add_argument("-l", "--lower", action="store_true",
                    help="Lowercase all input")
+    p.add_argument("-a", "--alphabet", type=str,
+                   default=hungarian_alphabet)
     return p.parse_args()
 
 
 def main():
     args = parse_args()
 
+    alphabet = set(args.alphabet)
+
     for line in stdin:
         if args.lower:
             line = line.lower()
+
+        line_abc = set(list(line.rstrip("\n")))
+        if line_abc - alphabet:
+            continue
 
         stdout.write(line)
 
