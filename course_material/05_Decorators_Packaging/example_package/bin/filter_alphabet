@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+from argparse import ArgumentParser
+from sys import stdin, stdout
+
+def parse_args():
+    p = ArgumentParser("Filter script")
+    p.add_argument("-l", "--lower", action="store_true",
+                   help="Lowercase all input")
+    return p.parse_args()
+
+
+def main():
+    args = parse_args()
+
+    for line in stdin:
+        if args.lower:
+            line = line.lower()
+
+        stdout.write(line)
+
+if __name__ == '__main__':
+    main()
