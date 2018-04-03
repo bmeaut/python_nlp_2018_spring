@@ -1,5 +1,47 @@
 # Homework
 
+## Homework 2 UPDATE
+
+The first version of HW2 contained one erroneous test.  The reason for the
+error was that in the reference solution we used int16 for POS transition
+counts which overflew for some of the transitions. We have corrected this
+mistake and added public tests that raise an error if the count matrices
+and the probability matricies have negative elements. These changes only affect
+Exercise 4 and 5. The instructions did not change, your old solution should
+work fine (if it is correct).
+
+If you click on the invitation link **after** April 2, Monday, you will
+automatically clone the corrected version.
+
+If you created your own homework repository **before** April 3, you have to
+manually pull the changes. If you already have changes in the file (you started
+to work on the homework), the easiest way is to copy your existing solution to
+a separate file, and reset `homework2.ipynb` before pulling (you do not want to
+resolve a merge conflict between Jupyter Notebooks).
+
+We provide instructions of command line interfaces (Linux Terminal, MacOS
+Terminal and Powershell):
+
+    cd /path/to/homework2-johnsmith
+    cp homework2.ipynb homework2-old.ipynb
+    git checkout -- homework2.ipynb
+
+Now you can add the common repository as a new remote, fetch and merge the new
+version:
+
+    git remote add python-nlp https://github.com/python-nlp/homework2.git
+    git fetch python-nlp
+    git merge python-nlp/master
+
+You can copy and paste your old solution into the new notebook.
+
+If you have done everything correctly, the last assert statement should be
+this:
+
+    assert tags == ['DT', 'NN', 'VBZ', '.']
+
+## Homework2
+
 This page describes general information regarding the mandatory homeworks for this course.
 The actual homeworks are published in the `homeworks/` directory.
 Please read the instructions and `README.md` (if available) files for each homework carefully.
@@ -54,8 +96,8 @@ All deadlines are Sunday 23:59 PM CET.
 | Homework | Release Week | Deadline Week | Person in charge | Email |
 | ---- | ---- | ---- | ---- | ---- |
 | 1 | 3 | 6 | Judit Acs | judit@aut.bme.hu |
-| 2 | | | | |
-| 3 | | | | |
+| 2 | 7 | 10 | Judit Acs | judit@aut.bme.hu |
+| 3 | 10 | 13 | David Nemeskey | nemeskeyd@gmail.com |
 
 ## Help
 
