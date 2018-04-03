@@ -2,10 +2,10 @@
 
 ## Homework 2 UPDATE
 
-The first version of HW2 contained one erroneous test.  The reason for the
-error was that in the reference solution we used int16 for POS transition
-counts which overflew for some of the transitions. We have corrected this
-mistake and added public tests that raise an error if the count matrices
+The first version of HW2 contained one erroneous test (the last one).  The
+reason for the error was that in the reference solution we used int16 for POS
+transition counts which overflew for some of the transitions. We have corrected
+this mistake and added public tests that raise an error if the count matrices
 and the probability matricies have negative elements. These changes only affect
 Exercise 4 and 5. The instructions did not change, your old solution should
 work fine (if it is correct).
@@ -19,7 +19,7 @@ to work on the homework), the easiest way is to copy your existing solution to
 a separate file, and reset `homework2.ipynb` before pulling (you do not want to
 resolve a merge conflict between Jupyter Notebooks).
 
-We provide instructions of command line interfaces (Linux Terminal, MacOS
+Copying and resetting the file in command line interfaces (Linux Terminal, MacOS
 Terminal and Powershell):
 
     cd /path/to/homework2-johnsmith
@@ -38,7 +38,9 @@ You can copy and paste your old solution into the new notebook.
 If you have done everything correctly, the last assert statement should be
 this:
 
-    assert tags == ['DT', 'NN', 'VBZ', '.']
+~~~python
+assert tags == ['DT', 'NN', 'VBZ', '.']
+~~~
 
 ## Homework2
 
