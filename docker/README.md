@@ -39,6 +39,10 @@ called `juditacs/python-nlp`.
 **WARNING** This should only be run the first time you are creating a container
 (Week 10's lab). See the next section on starting an existing container.
 
+Pull the latest image:
+
+    docker pull juditacs/python-nlp
+
 This command creates and starts a new container:
 
     docker run --name YOUR_NEPTUN_HERE -p 8088:8088 -it juditacs/python-nlp bash

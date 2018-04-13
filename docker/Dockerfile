@@ -21,5 +21,6 @@ RUN cd /nlp/hfst && wget http://sandbox.mokk.bme.hu/~judit/resources/hu.hfstol
 RUN cd /nlp && git clone https://github.com/bmeaut/python_nlp_2018_spring.git
 
 RUN apt-get install -y foma-bin
+RUN apt-get install -y graphviz
 
 EXPOSE 8088
