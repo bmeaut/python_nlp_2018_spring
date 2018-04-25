@@ -29,9 +29,9 @@ Week|Lecture|Topic|Lab|Topic|Homework
 8|03/28/2018|Morphology|03/30/2018|NO CLASS (Good Friday)|
 SPRING BREAK
 9|04/11/2018|Syntax I|04/13/2018|Morphology|
-10|04/18/2018|NO CLASS (Simonyi Conference)|04/20/2018|Syntax I|HW2 deadline / HW3 release
-11|04/25/2018|Syntax II|04/27/2018|Syntax II|
+10|04/18/2018|NO CLASS (Simonyi Conference)|04/20/2018|Syntax I|HW2 deadline
+11|04/25/2018|Syntax II|04/27/2018|Syntax II|HW3 release
 12|05/02/2018|Translation|05/04/2018|Translation|
-13|05/09/2018|Semantics I|05/11/2018|Semantics I|HW3 deadline
-14|05/16/2018|Semantics II|05/18/2018|Semantics II|
+13|05/09/2018|Semantics I|05/11/2018|Semantics I|
+14|05/16/2018|Semantics II|05/18/2018|Semantics II|HW3 deadline
 
